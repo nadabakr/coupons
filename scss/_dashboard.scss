@@ -1,0 +1,27 @@
+.dashboard {
+    background-color: $lightcolor;
+    padding: 5rem 0;
+    &__box {
+        padding: 3rem 0;
+        border-radius: 1rem;
+        box-shadow: rgba(158, 158, 158, 0.514) 0 0 .8rem;
+        margin-bottom: 1rem;
+        background-color: $primarycolor;
+    }
+}
+
+.statistics {
+    color: rgb(45, 45, 250);
+}
+
+.copied-coupon {
+    background-color: #ffc086cc;
+}
+
+.used-coupon {
+    background-color: #e38b73c4;
+}
+
+.visitors {
+    background-color: #a5abd585;
+}

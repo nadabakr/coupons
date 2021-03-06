@@ -1,0 +1,12 @@
+.confirm-code {
+    padding: 7rem 0;
+    background-color: $primarycolor;
+    &__content {
+        background-color: $lightcolor;
+        box-shadow: $shadow;
+        border-radius: 1rem;
+        a:hover {
+            text-decoration: none;
+        }
+    }
+}

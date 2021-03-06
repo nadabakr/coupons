@@ -1,0 +1,19 @@
+.footer {
+    background-color: $darkcolor;
+    color: $primarycolor;
+    a {
+        color: $primarycolor;
+        line-height: 2;
+    }
+    a:hover {
+        color: $secondarycolor;
+    }
+    h3 {
+        font-family: 'Lemonada', cursive;
+    }
+}
+
+.copy-right {
+    color: $secondarycolor;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.active {
+    color: $secondarycolor !important;
+}
+
+h1 {
+    font-family: 'Lemonada', cursive;
+}
+
+.done-btn {
+    color: $primarycolor;
+    background-color: $secondarycolor;
+    border: none;
+    font-size: larger;
+    border-radius: 1rem;
+}
+
+.rom-color {
+    color: $secondarycolor
+}

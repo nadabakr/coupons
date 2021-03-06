@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لوحة التحكم</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="dist/css/style.min.css" type="text/css" />
+</head>
+
+<body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="text-white navbar-brand" href="index.html">
+                <h1><span class="rom-color font-weight-bolder">RMO</span>OZY</h1>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-5" href="dashboard.html">لوحة التحكم</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /nav-bar -->
+    <main>
+        <!-- dashboard -->
+        <section class="dashboard">
+            <div class="container">
+                <h1 class="text-right py-5">لوحة التحكم</h1>
+                <div class="row m-auto justify-content-md-between">
+                    <div class="co-1"></div>
+                    <div class="copied-coupon col-12 col-lg-3 dashboard__box text-center">
+                        <p>الكوبونات المطبوعه</p>
+                        <h2 class="statistics">150.504</h2>
+                    </div>
+                    <div class="used-coupon col-12 col-lg-3 dashboard__box text-center">
+                        <p>الكوبونات المستخدمه</p>
+                        <h2 class="statistics">122.24</h2>
+                    </div>
+                    <div class="visitors col-12 col-lg-3 dashboard__box text-center">
+                        <p>زوار الموقع</p>
+                        <h2 class="statistics">3050</h2>
+                    </div>
+                    <div class="co-1"></div>
+                </div>
+            </div>
+        </section>
+        <!-- charts -->
+        <section class="charts text-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <h5 class="py-3 mt-5">عدد الكوبونات المطبوعه في كل متجر</h5>
+                        <canvas id="couponShopChart" class="m-auto"></canvas>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-12 col-lg-5">
+                        <h5 class="py-3 mt-5">معدل إنشاء الكوبونات شهريا</h5>
+                        <canvas id="couponMonthChart" class="m-auto"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /dashboard -->
+    </main>
+
+    <!-- footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row text-right">
+                <div class="col-12 col-lg-6">
+                    <a class="text-white navbar-brand mt-5" href="#">
+                        <h3><span class="rom-color font-weight-bolder">RMO</span>OZY</h3>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6 m-auto pt-3">
+                    <a href="index.html" class="ml-4">الرئيسية</a>
+
+                    <a href="dashboard.html" class="ml-4">لوحة التحكم</a>
+                </div>
+
+                <div class="col-12 col-lg-12 pt-3">
+                    <p>
+                        حقوق النشر <span class="copy-right">&copy;</span> 2021 عالم الكوبونات. جميع الحقوق محفوظه
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+    <!-- <script> -->
+    <script src="js/jquery-3.5.1.slim.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/chart-script.js"></script>
+    <!-- </script> -->
+</body>
+
+</html>

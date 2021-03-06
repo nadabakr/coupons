@@ -1,0 +1,23 @@
+.coupons {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    background-color: $lightcolor;
+    &__content {
+        background-color: $primarycolor;
+        box-shadow: $shadow;
+        border-radius: 1rem;
+        padding: 6rem 5rem;
+    }
+}
+
+.btn {
+    background-color: $darkcolor;
+    color: $primarycolor;
+    border-radius: 1rem;
+    font-size: larger;
+    border: none;
+}
+
+.btn:hover {
+    background-color: $secondarycolor;
+}
